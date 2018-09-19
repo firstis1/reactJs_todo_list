@@ -4,7 +4,7 @@ const Form = props => (
       <div>
         <form className="App" onSubmit={props.onSubmit}>
           <input value={props.name} onChange={props.onChange} />
-          <button>Add ToDo</button>
+          <button>{props.buttonName}</button>
         </form>        
       </div>
     );
